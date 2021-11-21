@@ -23,7 +23,6 @@ a {
     font-size: 20px;
     letter-spacing: 4px;
     text-decoration: none;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
 }
 
 a::before {
@@ -49,7 +48,6 @@ a::after {
     height: 100%;
     background: linear-gradient(45deg, #fb0094, #00f, #0f0, #ff0, #f00, #fb0094, #00f, #0f0, #ff0, #f00);
     background-size: 400%;
-    /* opacity: 0; */
     filter: blur(20px);
     transition: 0.5s;
     animation: animate 20s linear infinite;
